@@ -1,0 +1,165 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+body {
+    background-color: antiquewhite;
+    animation: alternate;
+}
+nav {
+    padding-block: 30px;
+    border: 2px solid blue;
+    background-color: whitesmoke;
+    height: fit-content;
+}
+.innernav {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-transform: capitalize;
+}
+.navitems {
+    display: flex;
+    gap: 3rem;
+}
+
+.navitems a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    font-size: 14px;
+}
+.logins{
+    display: flex;
+    gap: 1rem;
+}
+.logins select{
+    border: none;
+    background-color: transparent;
+    text-transform: capitalize;
+    color: black;
+    font-size: 13px;
+}
+.login button{
+    border: none;
+    background-color: #fff;
+    padding: 3rem 8rem;
+    border-radius: 25px;
+    text-transform: capitalize;
+    font-size: 12px;
+    color: blue;
+}
+.logins button :nth-child(2){
+    background-color: transparent;
+    border-radius: 0;
+    color: #4461F2;
+}
+.logins button:nth-child(2) span{
+    border-bottom: 2px solid #4461F2;
+}
+
+/* stylind for main */
+section{
+    padding-top: 3rem;
+    display: flex;
+}
+.contactcontent{
+    flex: 1;
+    /* background-image: ; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contactcontent h1{
+    font-size: 2.5rem;
+    width: 300px;
+    font-weight: 600;
+    line-height: 3.3rem;
+}
+.contactcontent p{
+    margin-top: 2rem;
+    width: 230px;
+}
+.contactcontent p a {
+    color: #4461F2;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.contactimg {
+    flex: 1;
+    margin-right: 45px;
+}
+.contactimg img{
+    width: 100%;
+}
+form {
+    flex: 1;
+}
+.inputContainer {
+    background: color  ;
+display: flex;
+align-items: center;
+padding-right: 10px;
+margin-bottom: 10px;
+}
+.inputContainer input {
+    border: none;
+    outline: none;
+    width: 100px;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    background-color: transparent;
+}
+.inputContainer input::placeholder {
+    text-transform: capitalize;
+    font-size: 13px;
+    color: #4f555a;
+}
+form a{
+    display: block;
+    text-align: end;
+    text-transform: capitalize;
+    font-size: 12px;
+    text-decoration: none;
+    color: #c7c7c7;
+    font-weight: 300;
+}
+font button {
+    background-color: #4461F2;
+    border: none;
+    padding: 0.8rem 1rem;
+    margin-top: 1.5rem;
+    width: 100%;
+    color: #fff;
+    text-transform: capitalize;
+    border-radius: 5px;
+}
+.socialicons{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.socialicon span {
+    border: 1px solid grey;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 50px;
+    font-size: 1.5rem;
+}
+.socialicons span :nth-child(2){
+border: none;
+background-color: #fff;
+box-shadow: .2rem .2rem 10px grey;
+}
+
+
